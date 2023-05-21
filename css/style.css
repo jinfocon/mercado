@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cupom-fiscal {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.cupom-fiscal h1 {
+    font-size: 18px;
+    margin: 0;
+}
+.cupom-fiscal p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.cupom-fiscal table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+.cupom-fiscal th, .cupom-fiscal td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.cupom-fiscal th {
+    background-color: #f2f2f2;
+}
+.cupom-fiscal tfoot td {
+    font-weight: bold;
+}
+.cupom-fiscal tfoot span {
+    float: right;
+}
+form {
+    text-align: center;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
